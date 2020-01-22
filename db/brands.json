@@ -1,0 +1,20 @@
+{
+  "brand1": {
+    "brandName": "Gibson",
+    "brandLogo": "https://i.pinimg.com/originals/58/dc/73/58dc730fa51b7f47c826481998d4cd02.png",
+    "websiteUrl": "www.gibson.com",
+    "yearStart": "1902"
+  },
+  "brand2": {
+    "brandName": "Fender",
+    "brandLogo": "http://pluspng.com/img-png/fender-png-file-fender-logo-png-800.png",
+    "websiteUrl": "www.fender.com",
+    "yearStart": "1946"
+  },
+  "brand3": {
+    "brandName": "Paul Reed Smith",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Prs_guitars_logo.png",
+    "websiteUrl": "www.prsguitars.com",
+    "yearStart": "1985"
+  }
+}
