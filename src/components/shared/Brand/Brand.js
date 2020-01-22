@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
 import brandShape from '../../../helpers/props/brandShape';
 import './Brand.scss';
 

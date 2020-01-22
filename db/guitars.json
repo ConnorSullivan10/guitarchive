@@ -2,16 +2,19 @@
   "guitar1": {
     "brandId": "brand1",
     "modelName": "Les Paul",
-    "description": "The Gibson Les Paul is a solid body electric guitar that was first sold by the Gibson Guitar Corporation in 1952. The Les Paul was designed by Gibson president Ted McCarty, factory manager John Huis and their team with some input from and endorsement by guitarist Les Paul."
+    "description": "The Gibson Les Paul is a solid body electric guitar that was first sold by the Gibson Guitar Corporation in 1952. The Les Paul was designed by Gibson president Ted McCarty, factory manager John Huis and their team with some input from and endorsement by guitarist Les Paul.",
+    "modelImageUrl": "https://images.reverb.com/image/upload/s--IonKkI0r--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1467831626/yd0tte1ppz8kf1z47hep.jpg"
   },
   "guitar2": {
     "brandId": "brand2",
     "modelName": "Telecaster",
-    "description": "The Fender Telecaster, colloquially known as the Tele, is the world's first commercially successful solid-body electric guitar. Its simple yet effective design and revolutionary sound broke ground and set trends in electric guitar manufacturing and popular music."
+    "description": "The Fender Telecaster, colloquially known as the Tele, is the world's first commercially successful solid-body electric guitar. Its simple yet effective design and revolutionary sound broke ground and set trends in electric guitar manufacturing and popular music.",
+    "modelImageUrl": "https://i.imgur.com/v1kv8BL.jpg"
   },
   "guitar3": {
     "brandId": "brand3",
     "modelName": "Custom 24",
-    "description": "The Custom 24 is arguably PRS’ flagship model, which has lead its Core range since 1985. With its bird fingerboard inlays, dual humbuckers, carved top, 24 frets and ergonomic contours, the Custom 24 is considered a modern classic among guitarists."
+    "description": "The Custom 24 is arguably PRS’ flagship model, which has lead its Core range since 1985. With its bird fingerboard inlays, dual humbuckers, carved top, 24 frets and ergonomic contours, the Custom 24 is considered a modern classic among guitarists.",
+    "modelImageUrl": "https://wildwestguitars.com/images/2/1765/prs-custom-24-dusty-waring-waring-burst-218696-7_(4)__wwg.jpg"
   }
 }
