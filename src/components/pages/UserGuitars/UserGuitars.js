@@ -22,7 +22,7 @@ class UserGuitars extends React.Component {
    render() {
      return (
       <div className="UserGuitars d-flex flex-wrap">
-          {this.state.guitars.map((userGuitar) => <UserGuitar key={userGuitar.id} UserGuitar={UserGuitar} deleteGuitar={this.deleteGuitar}/>)}
+          {this.state.userGuitars.map((userGuitar) => <UserGuitar key={userGuitar.id} UserGuitar={UserGuitar} deleteGuitar={this.deleteGuitar}/>)}
       </div>
      );
    }
