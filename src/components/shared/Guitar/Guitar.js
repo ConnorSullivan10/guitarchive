@@ -12,15 +12,16 @@ class Guitar extends React.Component {
     const { guitar } = this.props;
     return (
       <div className="guitars col-4">
-        <Link className="card" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>
+        <div className="card" >
           <div className="card-body">
             <div className="card-header d-flex flex-column">
               <img className="images modelImg" src={guitar.modelImageUrl} alt=""/>
               <p className="card-title">{guitar.modelName}</p>
               <p className="card-title">{guitar.description}</p>
+              <Link className="btn btn-success" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>User Guitars</Link>
             </div>
           </div>
-        </Link>
+        </div>
       </div>
     );
   }
