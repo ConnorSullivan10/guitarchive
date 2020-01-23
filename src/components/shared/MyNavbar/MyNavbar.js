@@ -31,9 +31,9 @@ class MyNavbar extends React.Component {
         );
       }
       return (
-            <li className="nav-item logIn">
-              <button className="nav-link btn btn-outline-danger" onClick={this.logMeIn}>Login With Google</button>
-            </li>
+              <li className="nav-item logIn">
+                <button className="nav-link btn btn-outline-danger" onClick={this.logMeIn}>Login With Google</button>
+              </li>
       );
     };
     return (

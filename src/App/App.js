@@ -17,11 +17,11 @@ import EditUserGuitar from '../components/pages/EditUserGuitar/EditUserGuitar';
 import NewUserGuitar from '../components/pages/NewUserGuitar/NewUserGuitar';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
-  const routeChecker = (props) => (authed === false ? <Component {...props} {...rest}/> : <Redirect to={{ pathname: '/brands', state: { from: props.location } }} />);
-  return <Route {...rest} render={(props) => routeChecker(props)} />;
+  // const routeChecker = (props) => ();
+  return <Route {...rest} render={(props) => <Component {...props} {...rest}/>} />;
 };
 const PrivateRoute = ({ component: Component, authed, ...rest }) => {
-  const routeChecker = (props) => (authed === true ? <Component {...props} {...rest}/> : <Redirect to={{ pathname: '/brands', state: { from: props.location } }} />);
+  const routeChecker = (props) => (authed === true ? <Component {...props} {...rest}/> : <Redirect to={{ pathname: '/', state: { from: props.location } }} />);
   return <Route {...rest} render={(props) => routeChecker(props)} />;
 };
 
@@ -57,10 +57,10 @@ class App extends React.Component {
               <PublicRoute path="/home" exact component={Home} authed={authed}/>
               <PublicRoute path="/brands" exact component={Brands} authed={authed}/>
               <PublicRoute path="/brands/:brandId/guitars" exact component={Guitars} authed={authed}/>
-              <PublicRoute path="/brands/:brandId/guitars/:guitarId/userGuitars" exact component={UserGuitars} authed={authed}/>
-              <PublicRoute path="/brands/:brandId/guitars/:guitarId/userGuitars/:userGuitarId" exact component={LoneUserGuitar} authed={authed}/>
-              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/userGuitars/:userGuitarId/edit" exact component={EditUserGuitar} authed={authed}/>
-              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/userGuitars/new" exact component={NewUserGuitar} authed={authed}/>
+              <PublicRoute path="/brands/:brandId/guitars/:guitarId" exact component={UserGuitars} authed={authed}/>
+              <PublicRoute path="/brands/:brandId/guitars/:guitarId/:userGuitarId" exact component={LoneUserGuitar} authed={authed}/>
+              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/:userGuitarId/edit" exact component={EditUserGuitar} authed={authed}/>
+              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/new" exact component={NewUserGuitar} authed={authed}/>
             </Switch>
           </Router>
         </div>

@@ -22,7 +22,7 @@ const userGuitarshape = PropTypes.shape({
   bodyConstruction: PropTypes.string,
   neckJointConstruction: PropTypes.string,
   weight: PropTypes.string,
-  uid: PropTypes.string.isRequired,
+  uid: PropTypes.string,
 });
 
 export default userGuitarshape;

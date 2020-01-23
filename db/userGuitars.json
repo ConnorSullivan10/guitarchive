@@ -23,19 +23,19 @@
     "uid": "9mbZgimPKOXvgPxVwXfLOcusfIi1"
   },
   "userGuitar2": {
-    "modelYear": "1963",
+    "modelYear": "2007",
     "guitarId": "guitar2",
-    "imageUrl": "https://cdn.mos.cms.futurecdn.net/7e17f91166810294fc88c86398707026.jpg",
-    "notes": "The reputation of guitars from this era among players was such that when Fender’s fortunes were waning in the early 80s, after buyers had become disillusioned with CBS-era Strats, a slab-’board 1962 model was selected as the basis for a new series of historically accurate reissues that helped turn the company’s fortunes around.",
-    "controls": "3 way Pickup selector, 1 Volume, 2 Tones",
+    "imageUrl": "https://images.reverb.com/image/upload/s--IMxgA8W9--/f_auto,t_large/v1562964837/vk0cykm0lbkdyu5hkfld.jpg",
+    "notes": "This 'Made in Japan' Telecaster is a rare model, meant only for the Japanese domestic market and features a rare custom color finish bridging the gap between an aged and saturated Ice Blue and a pale Ocean Turquoise, highlighted by cream binding on the top and back of the body.",
+    "controls": "3 way Pickup selector, 1 Volume, 1 Tone",
     "bodyWood": "alder",
     "neckWood": "maple",
     "fretboardWood": "rosewood",
     "pickups": "fender alnico V single-coils",
     "scaleLength": "25.5 in.",
     "nutWidth": "1.6450in",
-    "tuners": "Kluson single-line tuners",
-    "bridge": "fender proprietary 6-screw trem",
+    "tuners": "Kluson-style Gotoh tuners",
+    "bridge": "fender patent pending ashtray bridge",
     "neckShape": "C",
     "neckDimensions": ".810in at 1st Fret, .970in at 12th Fret",
     "fretboardRadius": "7.25in.",
@@ -43,7 +43,7 @@
     "bodyConstruction": "solidbody",
     "neckJointConstruction": "bolt-on",
     "weight": "7.4lbs",
-    "uid": "9mbZgimPKOXvgPxVwXfLOcusfIi1"
+    "uid": "12345"
   },
   "userGuitar3": {
     "modelYear": "1987",
