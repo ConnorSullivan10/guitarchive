@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './UserGuitars.scss';
 import UserGuitar from '../../shared/UserGuitar/UserGuitar';
 import guitarsData from '../../../helpers/data/guitarsData';
@@ -28,8 +29,10 @@ class UserGuitars extends React.Component {
 
    render() {
      const { brandId, userGuitars } = this.state;
+     const { guitarId } = this.props.match.params;
      return (
       <div className="UserGuitars d-flex flex-wrap">
+        <Link className="btn btn-success" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
           {userGuitars.map((userGuitar) => <UserGuitar key={userGuitar.id} userGuitar={userGuitar} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
       </div>
      );

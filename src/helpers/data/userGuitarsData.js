@@ -22,9 +22,13 @@ const getUserGuitarsByGuitarId = (guitarId) => new Promise((resolve, reject) => 
     });
 });
 
+
 const getLoneUserGuitar = (userGuitarId) => axios.get(`${baseUrl}/userGuitars/${userGuitarId}.json`);
+
+const saveNewUserGuitar = (newUserGuitar) => axios.post(`${baseUrl}/userGuitars.json`, newUserGuitar);
 
 export default {
   getUserGuitarsByGuitarId,
   getLoneUserGuitar,
+  saveNewUserGuitar,
 };
