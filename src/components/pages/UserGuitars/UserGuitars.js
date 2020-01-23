@@ -15,7 +15,6 @@ class UserGuitars extends React.Component {
        guitarsData.getSingleGuitar(guitarId)
          .then((response) => {
            this.setState({ brandId: response.data.brandId });
-           console.error(this.state.brandId);
            this.getUserGuitars(guitarId);
          })
          .catch((err) => console.error('error in get single guitar', err));
@@ -28,10 +27,10 @@ class UserGuitars extends React.Component {
    }
 
    render() {
-     const { brandId } = this.state;
+     const { brandId, userGuitars } = this.state;
      return (
       <div className="UserGuitars d-flex flex-wrap">
-          {this.state.userGuitars.map((userGuitar) => <UserGuitar key={userGuitar.id} userGuitar={userGuitar} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
+          {userGuitars.map((userGuitar) => <UserGuitar key={userGuitar.id} userGuitar={userGuitar} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
       </div>
      );
    }

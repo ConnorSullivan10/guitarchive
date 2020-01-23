@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 const userGuitarshape = PropTypes.shape({
   id: PropTypes.string,
-  modelYear: PropTypes.string.isRequired,
-  guitarId: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
+  modelYear: PropTypes.string,
+  guitarId: PropTypes.string,
+  imageUrl: PropTypes.string,
   notes: PropTypes.string,
   controls: PropTypes.string,
   bodyWood: PropTypes.string,

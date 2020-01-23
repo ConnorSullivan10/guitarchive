@@ -9,12 +9,6 @@ class MyNavbar extends React.Component {
     authed: PropTypes.bool,
   }
 
- logMeIn = (e) => {
-   e.preventDefault();
-   const provider = new firebase.auth.GoogleAuthProvider();
-   firebase.auth().signInWithPopup(provider);
- }
-
   logMeOut = (e) => {
     e.preventDefault();
     firebase.auth().signOut();
@@ -22,18 +16,21 @@ class MyNavbar extends React.Component {
 
   render() {
     const { authed } = this.props;
-    const buildAuthButton = () => {
+    const buildNavbar = () => {
       if (authed) {
         return (
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/home">Home</Link>
+            </li>
             <li className="nav-item logOut">
               <button className="nav-link btn btn-outline-danger" onClick={this.logMeOut}>Logout</button>
             </li>
+          </ul>
         );
       }
       return (
-              <li className="nav-item logIn">
-                <button className="nav-link btn btn-outline-danger" onClick={this.logMeIn}>Login With Google</button>
-              </li>
+        <ul className="navbar-nav ml-auto"></ul>
       );
     };
     return (
@@ -44,12 +41,7 @@ class MyNavbar extends React.Component {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/home">Home</Link>
-            </li>
-             { buildAuthButton() }
-          </ul>
+             { buildNavbar() }
           </div>
         </nav>
       </div>
