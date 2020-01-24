@@ -27,13 +27,20 @@ class UserGuitars extends React.Component {
        .catch((err) => console.error('error from get user guitars', err));
    }
 
+   deleteGuitar = (userGuitarId) => {
+     const { guitarId } = this.props.match.params;
+     userGuitarsData.deleteUserGuitar(userGuitarId)
+       .then(() => this.getUserGuitars(guitarId))
+       .catch((err) => console.error('error deleting user guitars', err));
+   }
+
    render() {
      const { brandId, userGuitars } = this.state;
      const { guitarId } = this.props.match.params;
      return (
       <div className="UserGuitars d-flex flex-wrap">
         <Link className="btn btn-success" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
-          {userGuitars.map((userGuitar) => <UserGuitar key={userGuitar.id} userGuitar={userGuitar} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
+          {userGuitars.map((uG) => <UserGuitar key={uG.id} userGuitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
       </div>
      );
    }

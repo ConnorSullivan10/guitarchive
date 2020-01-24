@@ -61,10 +61,10 @@ class App extends React.Component {
               <PrivateRoute path="/home" exact component={Home} authed={authed}/>
               <PrivateRoute path="/brands" exact component={Brands} authed={authed}/>
               <PrivateRoute path="/brands/:brandId/guitars" exact component={Guitars} authed={authed}/>
+              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/new" exact component={NewUserGuitar} authed={authed}/>
               <PrivateRoute path="/brands/:brandId/guitars/:guitarId" exact component={UserGuitars} authed={authed}/>
               <PrivateRoute path="/brands/:brandId/guitars/:guitarId/:userGuitarId" exact component={LoneUserGuitar} authed={authed}/>
               <PrivateRoute path="/brands/:brandId/guitars/:guitarId/:userGuitarId/edit" exact component={EditUserGuitar} authed={authed}/>
-              <PrivateRoute path="/brands/:brandId/guitars/:guitarId/new" exact component={NewUserGuitar} authed={authed}/>
             </Switch>
           </Router>
         </div>

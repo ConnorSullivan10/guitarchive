@@ -12,6 +12,12 @@ class UserGuitar extends React.Component {
     deleteGuitar: PropTypes.func,
   }
 
+  deleteUserGuitarEvent = (e) => {
+    e.preventDefault();
+    const { userGuitar, deleteGuitar } = this.props;
+    deleteGuitar(userGuitar.id);
+  }
+
   render() {
     const { brandId, userGuitar } = this.props;
     const userUid = authData.getUid();

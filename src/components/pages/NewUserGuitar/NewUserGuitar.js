@@ -128,8 +128,9 @@ class NewUserGuitar extends React.Component {
       guitPickups, guitScaleLength, guitNutWidth, guitTuners, guitBridge, guitNeckShape, guitNeckDimensions,
       guitFretboardRadius, guitFrets, guitBodyConstruction, guitNeckJointConstruction, guitWeight,
     } = this.state;
+    const { guitarId, brandId } = this.props.match.params;
     const newUserGuitar = {
-      guitarId: this.props.match.params.guitarId,
+      guitarId,
       modelYear: guitModelYear,
       imageUrl: guitImageUrl,
       notes: guitNotes,
@@ -152,7 +153,7 @@ class NewUserGuitar extends React.Component {
       uid: authData.getUid(),
     };
     userGuitarData.saveNewUserGuitar(newUserGuitar)
-      .then(() => this.props.history.push('/brands/{brandId}/{guitarId}'))
+      .then(() => this.props.history.push(`/brands/${brandId}/guitars/${guitarId}`))
       .catch((err) => console.error('error from save new user guitar', err));
   }
 
@@ -171,7 +172,7 @@ class NewUserGuitar extends React.Component {
             className="form-control form-control-lg"
             id="guitYear"
             value={guitModelYear}
-            onChange={this.modelChange}
+            onChange={this.modelYearChange}
           />
         </div>
         <div className="form-group">

@@ -27,8 +27,11 @@ const getLoneUserGuitar = (userGuitarId) => axios.get(`${baseUrl}/userGuitars/${
 
 const saveNewUserGuitar = (newUserGuitar) => axios.post(`${baseUrl}/userGuitars.json`, newUserGuitar);
 
+const deleteUserGuitar = (userGuitarId) => axios.delete(`${baseUrl}/userGuitars/${userGuitarId}.json`);
+
 export default {
   getUserGuitarsByGuitarId,
   getLoneUserGuitar,
   saveNewUserGuitar,
+  deleteUserGuitar,
 };
