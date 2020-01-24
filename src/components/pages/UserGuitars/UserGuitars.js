@@ -38,7 +38,7 @@ class UserGuitars extends React.Component {
      const { brandId, userGuitars } = this.state;
      const { guitarId } = this.props.match.params;
      return (
-      <div className="UserGuitars d-flex flex-wrap">
+      <div className="UserGuitars d-flex flex-column">
         <Link className="btn btn-success" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
           {userGuitars.map((uG) => <UserGuitar key={uG.id} userGuitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
       </div>
