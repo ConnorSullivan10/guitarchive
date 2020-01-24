@@ -12,6 +12,12 @@ class UserGuitar extends React.Component {
     deleteGuitar: PropTypes.func,
   }
 
+  deleteUserGuitarEvent = (e) => {
+    e.preventDefault();
+    const { userGuitar, deleteGuitar } = this.props;
+    deleteGuitar(userGuitar.id);
+  }
+
   render() {
     const { brandId, userGuitar } = this.props;
     const userUid = authData.getUid();
@@ -19,7 +25,7 @@ class UserGuitar extends React.Component {
       if (userUid === userGuitar.uid) {
         return (
             <div className="userBtnContainer">
-              <Link className="btn btn-warning" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/userGuitars/${userGuitar.id}/edit`}>Edit</Link>
+              <Link className="btn btn-warning" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}/edit`}>Edit</Link>
               <button className="btn btn-danger" onClick={this.deleteUserGuitarEvent}>X</button>
             </div>
         );
