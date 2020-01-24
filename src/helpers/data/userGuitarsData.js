@@ -29,9 +29,12 @@ const saveNewUserGuitar = (newUserGuitar) => axios.post(`${baseUrl}/userGuitars.
 
 const deleteUserGuitar = (userGuitarId) => axios.delete(`${baseUrl}/userGuitars/${userGuitarId}.json`);
 
+const updateUserGuitar = (userGuitarId, userGuitar) => axios.put(`${baseUrl}/userGuitars/${userGuitarId}.json`, userGuitar);
+
 export default {
   getUserGuitarsByGuitarId,
   getLoneUserGuitar,
   saveNewUserGuitar,
   deleteUserGuitar,
+  updateUserGuitar,
 };
