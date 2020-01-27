@@ -165,7 +165,7 @@ class NewUserGuitar extends React.Component {
     } = this.state;
     return (
       <form className="New">
-        <h1>Add New User Guitar</h1>
+        <h1>Add Your Guitar</h1>
         <div className="form-group">
           <label className="formHeader" htmlFor="guitImgUrl">Image URL</label>
           <input
