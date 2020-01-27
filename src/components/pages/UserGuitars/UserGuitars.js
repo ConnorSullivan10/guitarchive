@@ -40,7 +40,9 @@ class UserGuitars extends React.Component {
      return (
       <div className="UserGuitars d-flex flex-column">
         <Link className="btn btn-success" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
+        <div className="userGtrsContainer d-flex flex-row">
           {userGuitars.map((uG) => <UserGuitar key={uG.id} userGuitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
+        </div>
       </div>
      );
    }

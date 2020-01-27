@@ -8,13 +8,13 @@
   "guitar2": {
     "brandId": "brand1",
     "modelName": "SG",
-    "description": "The Gibson SG is a solid-body electric guitar model introduced by Gibson in 1961 as the Gibson Les Paul SG, and made famous by the likes of rock icons such as Angus Young. Initially, the SG started life as the evolution of the Les Paul model. Les Paul sales had fallen, and Gibson decided that an update would reinvigorate sales. The SG, being a flat-topped, all mahogany design, was also a lot cheaper to produce. It remains in production today in many variations of the initial design. The SG Standard is Gibson's best-selling model of all time.",
+    "description": "The Gibson SG is a solid-body electric guitar model introduced by Gibson in 1961 as the Gibson Les Paul SG, and made famous by the likes of rock icons such as Angus Young. Initially, the SG started life as the evolution of the Les Paul model.",
     "modelImageUrl": "https://guitar.com/wp-content/uploads/2019/09/Matt-Guitar-Shop-June-2019-62-sg-history@1400x1050.jpg"
   },
   "guitar3": {
     "brandId": "brand1",
     "modelName": "ES-335",
-    "description": "Following the development of its solid body guitars, Gibson tried to find a balance between the archtop models, upon which it had built its reputation, and the new solid bodied models. The result was the ES-335, known as the ‘Dot’. The 335 was one of the first Thinline models the brand produced, with a semisolid build, and hollow-body style F-holes. The result was a guitar that had much of the character of archtop models, but without the feedback issues that plagued them.",
+    "description": "The 335 was one of the first Thinline models produced, with a semisolid build, and hollow-body style F-holes.",
     "modelImageUrl": "https://www.emeraldcityguitars.com/wp-content/uploads/2018/06/1959GibsonES335-7.jpg"
   },
   "guitar4": {

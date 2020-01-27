@@ -164,17 +164,8 @@ class NewUserGuitar extends React.Component {
       guitFretboardRadius, guitFrets, guitBodyConstruction, guitNeckJointConstruction, guitWeight,
     } = this.state;
     return (
-      <form className="Edit">
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitYear">Production Year</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitYear"
-            value={guitModelYear}
-            onChange={this.modelYearChange}
-          />
-        </div>
+      <form className="New">
+        <h1>Add New User Guitar</h1>
         <div className="form-group">
           <label className="formHeader" htmlFor="guitImgUrl">Image URL</label>
           <input
@@ -185,177 +176,195 @@ class NewUserGuitar extends React.Component {
             onChange={this.imageChange}
           />
         </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNotes">Special Notes</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNotes"
-            value={guitNotes}
-            onChange={this.notesChange}
-          />
+        <div className="inputRows">
+          <div className="col-4">
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitYear">Production Year</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitYear"
+                value={guitModelYear}
+                onChange={this.modelYearChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNotes">Special Notes</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNotes"
+                value={guitNotes}
+                onChange={this.notesChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitControls">Control Layout</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitControls"
+                value={guitControls}
+                onChange={this.controlsChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitBodyWood">Body Wood</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitBodyWood"
+                value={guitBodyWood}
+                onChange={this.bodyWoodChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNeckWood">Neck Wood</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNeckWood"
+                value={guitNeckWood}
+                onChange={this.neckWoodChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitFretboardWood">Fretboard Wood</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitFretboardWood"
+                value={guitFretboardWood}
+                onChange={this.fretboardWoodChange}
+              />
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitPickups">Pickups</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitPickups"
+                value={guitPickups}
+                onChange={this.pickupsChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitScaleLength">Scale Length</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitScaleLength"
+                value={guitScaleLength}
+                onChange={this.scaleLengthChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNutWidth">Nut Width</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNutWidth"
+                value={guitNutWidth}
+                onChange={this.nutWidthChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitTuners">Tuners</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitTuners"
+                value={guitTuners}
+                onChange={this.tunersChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitBridge">Bridge</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitBridge"
+                value={guitBridge}
+                onChange={this.bridgeChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNeckShape">Neck Shape</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNeckShape"
+                value={guitNeckShape}
+                onChange={this.neckShapeChange}
+              />
+            </div>
+          </div>
+          <div className="col-4">
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNeckDimensions">Neck Dimensions</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNeckDimensions"
+                value={guitNeckDimensions}
+                onChange={this.neckDimensionsChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitRadius">Fretboard Radius</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitRadius"
+                value={guitFretboardRadius}
+                onChange={this.fretboardRadiusChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitFrets">Frets</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitFrets"
+                value={guitFrets}
+                onChange={this.fretsChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitBodyCon">Body Construction</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitBodyCon"
+                value={guitBodyConstruction}
+                onChange={this.bodyConstructionChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitNeckCon">Neck Joint Construction</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitNeckCon"
+                value={guitNeckJointConstruction}
+                onChange={this.neckJointConstructionChange}
+              />
+            </div>
+            <div className="form-group">
+              <label className="formHeader" htmlFor="guitWeight">Weight</label>
+              <input
+                type="text"
+                className="form-control form-control-lg"
+                id="guitWeight"
+                value={guitWeight}
+                onChange={this.weightChange}
+              />
+            </div>
+          </div>
         </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitControls">Control Layout</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitControls"
-            value={guitControls}
-            onChange={this.controlsChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitBodyWood">Body Wood</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitBodyWood"
-            value={guitBodyWood}
-            onChange={this.bodyWoodChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNeckWood">Neck Wood</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNeckWood"
-            value={guitNeckWood}
-            onChange={this.neckWoodChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitFretboardWood">Fretboard Wood</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitFretboardWood"
-            value={guitFretboardWood}
-            onChange={this.fretboardWoodChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitPickups">Pickups</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitPickups"
-            value={guitPickups}
-            onChange={this.pickupsChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitScaleLength">Scale Length</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitScaleLength"
-            value={guitScaleLength}
-            onChange={this.scaleLengthChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNutWidth">Nut Width</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNutWidth"
-            value={guitNutWidth}
-            onChange={this.nutWidthChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitTuners">Tuners</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitTuners"
-            value={guitTuners}
-            onChange={this.tunersChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitBridge">Bridge</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitBridge"
-            value={guitBridge}
-            onChange={this.bridgeChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNeckShape">Neck Shape</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNeckShape"
-            value={guitNeckShape}
-            onChange={this.neckShapeChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNeckDimensions">Neck Dimensions</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNeckDimensions"
-            value={guitNeckDimensions}
-            onChange={this.neckDimensionsChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitRadius">Fretboard Radius</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitRadius"
-            value={guitFretboardRadius}
-            onChange={this.fretboardRadiusChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitFrets">Frets</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitFrets"
-            value={guitFrets}
-            onChange={this.fretsChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitBodyCon">Body Construction</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitBodyCon"
-            value={guitBodyConstruction}
-            onChange={this.bodyConstructionChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitNeckCon">Neck Joint Construction</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitNeckCon"
-            value={guitNeckJointConstruction}
-            onChange={this.neckJointConstructionChange}
-          />
-        </div>
-        <div className="form-group">
-          <label className="formHeader" htmlFor="guitWeight">Weight</label>
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            id="guitWeight"
-            value={guitWeight}
-            onChange={this.weightChange}
-          />
-        </div>
-        <button className="btn btn-lg btn-outline-success" onClick={this.saveNewUserGuitarEvent}>Add To Collection</button>
+        <button className="btn btn-lg btn-success" onClick={this.saveNewUserGuitarEvent}>Add To Collection</button>
       </form>
     );
   }
