@@ -21,33 +21,29 @@ class LoneUserGuitar extends React.Component {
      render() {
        const { userGuitar } = this.state;
        return (
-     <div className="card">
-        <img className="images" src={userGuitar.imageUrl} alt=""/>
-          <div className="card-body">
-            <div className="card-header d-flex flex-row">
-              <p className="card-title">{userGuitar.notes}</p>
-               <ul>
-                <li>{userGuitar.modelYear}</li>
-                <li>{userGuitar.cutawayStyle}</li>
-                <li>{userGuitar.controls}</li>
-                <li>{userGuitar.bodyWood}</li>
-                <li>{userGuitar.neckWood}</li>
-                <li>{userGuitar.fretboardWood}</li>
-                <li>{userGuitar.pickups}</li>
-                <li>{userGuitar.pickupLayout}</li>
-                <li>{userGuitar.scaleLength}</li>
-                <li>{userGuitar.tuners}</li>
-                <li>{userGuitar.bridge}</li>
-                <li>{userGuitar.bodyDimensions}</li>
-                <li>{userGuitar.neckDimensions}</li>
-                <li>{userGuitar.neckShape}</li>
-                <li>{userGuitar.fretboardRadius}</li>
-                <li>{userGuitar.fretSize}</li>
-                <li>{userGuitar.construction}</li>
-              </ul>
-            </div>
-          </div>
-      </div>
+        <div className="loneGtr d-flex flex-row row">
+          <img className="loneContainer image loneImg col-4" src={userGuitar.imageUrl} alt=""/>
+          <ul className=" loneContainer col-7 specList">
+            <li className="guitDescription">{userGuitar.notes}</li>
+            <li>Year Made: {userGuitar.modelYear}</li>
+            <li>Control Layout: {userGuitar.controls}</li>
+            <li>Body: {userGuitar.bodyWood}</li>
+            <li>Neck: {userGuitar.neckWood}</li>
+            <li>Fretboard: {userGuitar.fretboardWood}</li>
+            <li>Pickups: {userGuitar.pickups}</li>
+            <li>Scale Length: {userGuitar.scaleLength}</li>
+            <li>Nut Width: {userGuitar.nutWidth}</li>
+            <li>Tuners: {userGuitar.tuners}</li>
+            <li>Bridge: {userGuitar.bridge}</li>
+            <li>Neck Shape: {userGuitar.neckShape}</li>
+            <li>Neck Dimensions: {userGuitar.neckDimensions}</li>
+            <li>Fretboard Radius: {userGuitar.fretboardRadius}</li>
+            <li>Frets: {userGuitar.frets}</li>
+            <li>Body Type: {userGuitar.bodyConstruction}</li>
+            <li>Neck Joint: {userGuitar.neckJointConstruction}</li>
+            <li>Weight: {userGuitar.weight}</li>
+          </ul>
+        </div>
        );
      }
 }

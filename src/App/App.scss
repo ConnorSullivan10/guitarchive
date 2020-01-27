@@ -1,3 +1,16 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-image: url(https://davesguitar.com/wp-content/uploads/2011/04/PayPal_DavesGuitar_1409.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
 }

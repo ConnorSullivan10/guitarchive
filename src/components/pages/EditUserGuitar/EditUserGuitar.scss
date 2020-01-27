@@ -1,0 +1,13 @@
+.Edit {
+  min-height: 100vh;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.inputRows {
+  display: flex;
+  flex-direction: row;
+}

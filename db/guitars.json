@@ -6,15 +6,69 @@
     "modelImageUrl": "https://images.reverb.com/image/upload/s--IonKkI0r--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1467831626/yd0tte1ppz8kf1z47hep.jpg"
   },
   "guitar2": {
+    "brandId": "brand1",
+    "modelName": "SG",
+    "description": "The Gibson SG is a solid-body electric guitar model introduced by Gibson in 1961 as the Gibson Les Paul SG, and made famous by the likes of rock icons such as Angus Young. Initially, the SG started life as the evolution of the Les Paul model.",
+    "modelImageUrl": "https://guitar.com/wp-content/uploads/2019/09/Matt-Guitar-Shop-June-2019-62-sg-history@1400x1050.jpg"
+  },
+  "guitar3": {
+    "brandId": "brand1",
+    "modelName": "ES-335",
+    "description": "The 335 was one of the first Thinline models produced, with a semisolid build, and hollow-body style F-holes.",
+    "modelImageUrl": "https://www.emeraldcityguitars.com/wp-content/uploads/2018/06/1959GibsonES335-7.jpg"
+  },
+  "guitar4": {
+    "brandId": "brand2",
+    "modelName": "Stratocaster",
+    "description": "The Fender Stratocaster is a model of electric guitar designed from 1952 into 1954 by Leo Fender, Bill Carson, George Fullerton, and completed by Freddie Tavares. The Fender Musical Instruments Corporation has continuously manufactured the Stratocaster from 1954 to the present. It is a double-cutaway guitar, with an extended top 'horn' shape for balance like the Precision Bass guitar. Along with the Gibson Les Paul and Fender Telecaster, it is one of the most-often emulated electric guitar shapes.",
+    "modelImageUrl": "https://i.imgur.com/v1kv8BL.jpg"
+  },
+  "guitar5": {
     "brandId": "brand2",
     "modelName": "Telecaster",
     "description": "The Fender Telecaster, colloquially known as the Tele, is the world's first commercially successful solid-body electric guitar. Its simple yet effective design and revolutionary sound broke ground and set trends in electric guitar manufacturing and popular music.",
     "modelImageUrl": "https://i.imgur.com/v1kv8BL.jpg"
   },
-  "guitar3": {
+  "guitar6": {
+    "brandId": "brand2",
+    "modelName": "Jazzmaster",
+    "description": "The Fender Jazzmaster is an electric guitar designed as a more expensive sibling to the Fender Stratocaster. First introduced at the 1958 NAMM Show, it was initially marketed to jazz guitarists, but found favor among surf rock guitarists in the early 1960s. The contoured 'offset-waist' body was designed for comfort while playing the guitar in a seated position, as many jazz and blues artists prefer to do.",
+    "modelImageUrl": "https://i.imgur.com/v1kv8BL.jpg"
+  },
+  "guitar7": {
     "brandId": "brand3",
     "modelName": "Custom 24",
     "description": "The Custom 24 is arguably PRS’ flagship model, which has lead its Core range since 1985. With its bird fingerboard inlays, dual humbuckers, carved top, 24 frets and ergonomic contours, the Custom 24 is considered a modern classic among guitarists.",
     "modelImageUrl": "https://wildwestguitars.com/images/2/1765/prs-custom-24-dusty-waring-waring-burst-218696-7_(4)__wwg.jpg"
+  },
+  "guitar8": {
+    "brandId": "brand3",
+    "modelName": "Singlecut",
+    "description": "2000 - 2007. Singlecut body shape with carved maple top, mahogany back and neck, rosewood fretboard, 25” scale length with 10” fretboard radius, optional bird inlays, Wide Fat neck carve, PRS #7 Treble and Bass pickups, two volume and two tone controls with 3-way toggle on upper bout.",
+    "modelImageUrl": "https://reverb-res.cloudinary.com/image/upload/v1448380637/Singlecut-2001_vghlmp.jpg"
+  },
+  "guitar9": {
+    "brandId": "brand3",
+    "modelName": "Santana II",
+    "description": " Signature Model and reproduction of Carlos Santana’s original custom guitar made by Paul Reed Smeeth.  24 1/4” scale, 24-fret (11.5” radius) fretboard, bird inlays, maple top (with paua shell purfling) Santana humbuckers, tone, twin mini-switches. Features 3-way toggle, volume and tone, artist grade woods, Brazilian Rosewood fretboard and headstock overlay, eagle inlayed on headstock.",
+    "modelImageUrl": "https://cdn1.bigcommerce.com/n-ou1isn/ejpbfe/products/3320/images/29550/0000__96333.1514308755.1280.1280.jpg?c=2"
+  },
+  "guitar10": {
+    "brandId": "brand3",
+    "modelName": "Silver Sky",
+    "description": "The PRS Silver Sky is an idealized version of a vintage single-coil guitar where every detail adds up and sets this guitar apart from the pack and the past. The result of a close collaboration between Grammy Award-winning musician John Mayer and Paul Reed Smith, the Silver Sky is based off of years of development. Incorporating Mayer and Smith’s favorite elements of 1963 and 1964 instruments with an eye toward modern references, the PRS Silver Sky delivers the warmth and familiarity of an old guitar with the finesse of a brand-new instrument.",
+    "modelImageUrl": "https://www.nstuffmusic.com/images/product/large/ae00-50510.jpg"
+  },
+  "guitar11": {
+    "brandId": "brand3",
+    "modelName": "McCarty",
+    "description": "1994 - 2007. 2010- Present First 100 signed and numbered, wide-fat 22-fret neck only, East coast maple top, 1/8th of an inch thicker mahogany back, stop-tail, vintage-style tuners until 2010, McCarty pickups until 2007, 57/08 pickups 2010 – 2015, 58/15 pickups 2016- present, East Indian Rosewood Neck option added in 1998.",
+    "modelImageUrl": "https://cdn.shopify.com/s/files/1/0789/2433/products/DSF2665_x700.jpg?v=1574448291"
+  },
+  "guitar12": {
+    "brandId": "brand3",
+    "modelName": "Modern Eagle",
+    "description": "2004 - 2007. 2012 Carved highly figured maple top, mahogany back, Brazilian rosewood neck and fretboard, 10” radius, 22-fret, ripple abalone bird inlays, Brazilian Rosewood headstock overlay with inlaid Modern Eagle, a new grommet version of the PRS phase II locking tuners, ultra-thin satin nitro-cellulose finish on body with 8 special colors, Modern Eagle “RP” pickups.",
+    "modelImageUrl": "http://protocolguitarworks.com/wp-content/uploads/2019/06/IMG_4802.jpg"
   }
 }

@@ -25,24 +25,26 @@ class UserGuitar extends React.Component {
       if (userUid === userGuitar.uid) {
         return (
             <div className="userBtnContainer">
-              <Link className="btn btn-warning" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}/edit`}>Edit</Link>
-              <button className="btn btn-danger" onClick={this.deleteUserGuitarEvent}>X</button>
+              <Link className="btn btn-warning updateBtn" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}/edit`}>Edit</Link>
+              <button className="btn btn-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
             </div>
         );
       }
       return <div className="nothing"></div>;
     };
     return (
-      <div className="guitars col-4">
-        <div className="card" >
-          <div className="card-body">
+      <div className="userGuitars col-4">
+        <div className="card userGtrCard" >
+          <div className="card-body userGtrBody">
             <div className="card-header d-flex flex-column">
-              <img className="images userGtrImg" src={userGuitar.imageUrl} alt=""/>
-              <p className="card-title">{userGuitar.modelYear}</p>
+              <img className="images userGtrImg card-img-top" src={userGuitar.imageUrl} alt=""/>
+              <div className="userGtrCopy">
+                <p className="card-title">Model Year: {userGuitar.modelYear}</p>
+                <Link className="card-title" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}`}>
+                    More Details
+                </Link>
+              </div>
               { buildButtons() }
-              <Link className="card-title" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}`}>
-                  More Details
-              </Link>
             </div>
           </div>
         </div>

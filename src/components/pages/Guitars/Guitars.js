@@ -20,9 +20,12 @@ class Guitars extends React.Component {
      render() {
        const { guitars } = this.state;
        return (
-      <div className="Guitars d-flex flex-wrap">
-          {guitars.map((guitar) => <Guitar key={guitar.id} guitar={guitar} />)}
-      </div>
+         <div className="Guitars ">
+          <h1>Guitar Models</h1>
+          <div className="guitCards d-flex flex-wrap row h-100 flex-row ">
+              {guitars.map((guitar) => <Guitar key={guitar.id} guitar={guitar} />)}
+          </div>
+         </div>
        );
      }
 }

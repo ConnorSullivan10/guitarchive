@@ -1,3 +1,22 @@
 .modelImg {
-  width: 100%;
+  max-width: 100%;
+}
+
+.Guitar {
+  margin: 1em;
+}
+
+.modelName {
+  font-size: 1.5em;
+}
+
+.usrBtn {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.gtrCardTop {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
 }

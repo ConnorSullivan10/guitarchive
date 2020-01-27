@@ -22,9 +22,12 @@ class Brands extends React.Component {
 
    render() {
      return (
-      <div className="Brands d-flex flex-wrap">
-          {this.state.brands.map((brand) => <Brand key={brand.id} brand={brand}/>)}
-      </div>
+       <div className="Brands">
+        <h1>Guitar Brands</h1>
+        <div className="d-flex flex-wrap">
+            {this.state.brands.map((brand) => <Brand key={brand.id} brand={brand}/>)}
+        </div>
+       </div>
      );
    }
 }
