@@ -16,7 +16,7 @@ class Brand extends React.Component {
           <div className="card-body brandCard">
               <img className="images brandLogo" src={brand.brandLogo} alt=""/>
               <div className="brandCardCopy">
-                <a className="card-title" href={brand.websiteUrl}>Site</a>
+                <a className="card-title" href={brand.websiteUrl} target="_blank" rel="noopener noreferrer">Site</a>
                 <p className="card-title">Founded {brand.yearStart}</p>
                 <Link className="btn btn-success" to={`/brands/${brand.id}/guitars`}>Guitar Models</Link>
               </div>
