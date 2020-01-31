@@ -33,16 +33,12 @@
 }
 
 .userGtrCard {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin: 1em;
+  justify-content: center;
 }
 
 .userGtrCopy {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.userGtrImg {
-  height: 100%;
 }

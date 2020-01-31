@@ -33,11 +33,9 @@ class UserGuitar extends React.Component {
       return <div className="nothing"></div>;
     };
     return (
-      <div className="userGuitars col-4">
-        <div className="card userGtrCard" >
-          <div className="card-body userGtrBody">
+        <div className="card card-body col-4 flex-fill userGtrCard" >
+            <img className="images userGtrImg" src={guitar.imageUrl} alt=""/>
             <div className="card-header d-flex flex-column">
-              <img className="images userGtrImg card-img-top" src={guitar.imageUrl} alt=""/>
               <div className="userGtrCopy">
                 <p className="card-title">Model Year: {guitar.modelYear}</p>
                 <Link className="card-title" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}`}>
@@ -46,9 +44,7 @@ class UserGuitar extends React.Component {
               </div>
               { buildButtons() }
             </div>
-          </div>
         </div>
-      </div>
     );
   }
 }

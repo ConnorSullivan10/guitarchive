@@ -11,22 +11,16 @@ class Guitar extends React.Component {
   render() {
     const { guitar } = this.props;
     return (
-      <div className="guitars col-4">
-        <div className="card Guitar">
-          <div className="card-body">
+        <div className="card card-body flex-fill Guitar col-4">
             <img className="images modelImg" src={guitar.modelImageUrl} alt=""/>
             <div className="card-header">
-              <div className="row gtrCardTop align-items-center">
-                <p className="card-title modelName">{guitar.modelName}</p>
-                <Link className="btn btn-success usrBtn" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>User Guitars</Link>
-              </div>
+              <p className="card-title modelName">{guitar.modelName}</p>
+              <Link className="btn btn-success usrBtn" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>User Guitars</Link>
               <p className="card-title">
                 {guitar.description}
               </p>
             </div>
-          </div>
         </div>
-      </div>
     );
   }
 }

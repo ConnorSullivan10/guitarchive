@@ -22,7 +22,7 @@ class Guitars extends React.Component {
        return (
          <div className="Guitars ">
           <h1>Guitar Models</h1>
-          <div className="guitCards d-flex flex-wrap row h-100 flex-row ">
+          <div className="guitCards d-flex flex-row">
               {guitars.map((guitar) => <Guitar key={guitar.id} guitar={guitar} />)}
           </div>
          </div>

@@ -4,6 +4,8 @@
 
 .Guitar {
   margin: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .modelName {
@@ -13,10 +15,4 @@
 .usrBtn {
   margin-right: 0;
   margin-left: auto;
-}
-
-.gtrCardTop {
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1em;
 }
