@@ -5,10 +5,12 @@ import UserGuitar from '../../shared/UserGuitar/UserGuitar';
 import ToneChasingModal from '../../shared/ToneChasingModal/ToneChasingModal';
 import guitarsData from '../../../helpers/data/guitarsData';
 import userGuitarsData from '../../../helpers/data/userGuitarsData';
+import toneLegendsData from '../../../helpers/data/toneLegendsData';
 
 class UserGuitars extends React.Component {
      state = {
        userGuitars: [],
+       toneLegends: [],
        show: false,
        brandId: '',
      }
@@ -21,6 +23,9 @@ class UserGuitars extends React.Component {
            this.getUserGuitars(guitarId);
          })
          .catch((err) => console.error('error in get single guitar', err));
+       toneLegendsData.getToneLegendsByGuitarId(guitarId)
+         .then((toneLegends) => this.setState({ toneLegends }))
+         .catch((err) => console.error('error from get legends by guitar', err));
      }
 
    getUserGuitars = (guitarId) => {
@@ -41,7 +46,9 @@ class UserGuitars extends React.Component {
   modalClose = () => this.setState({ show: false });
 
   render() {
-    const { brandId, userGuitars, show } = this.state;
+    const {
+      brandId, userGuitars, show, toneLegends,
+    } = this.state;
     const { guitarId } = this.props.match.params;
     return (
       <div className="UserGuitars d-flex flex-column">
@@ -49,7 +56,7 @@ class UserGuitars extends React.Component {
         <div className="text-center">
             <button className="btn btn-success text-center" onClick={this.modalOpen}>Tone Tips</button>
         </div>
-        <ToneChasingModal modalClose={this.modalClose} show={show}/>
+        <ToneChasingModal modalClose={this.modalClose} show={show} toneLegends={toneLegends}/>
         <Link className="btn btn-success addUsrGtr" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
         <div className="userGtrsContainer d-flex flex-row">
           {userGuitars.map((uG) => <UserGuitar key={uG.id} guitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
