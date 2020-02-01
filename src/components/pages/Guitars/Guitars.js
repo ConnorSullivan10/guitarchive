@@ -6,6 +6,7 @@ import guitarsData from '../../../helpers/data/guitarsData';
 class Guitars extends React.Component {
      state = {
        guitars: [],
+       show: false,
      }
 
      componentDidMount() {
