@@ -35,8 +35,10 @@ class MyNavbar extends React.Component {
     };
     return (
       <div className="MyNavbar">
-        <nav className="navbar shadow-lg  p-3 mb-5 fixed-top navbar-expand-lg navbar-light bg-light">
-          <div className="nav-brand">GuitArchive</div>
+        <nav className="navbar shadow-lg p-3 mb-5 fixed-top navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/home">
+            <img src="../../../images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="guitArchive"/>
+          </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

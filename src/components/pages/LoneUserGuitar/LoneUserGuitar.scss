@@ -11,15 +11,17 @@
 .loneImg {
   width: 100%;
   height: auto;
+  object-fit: scale-down;
 }
 
-.specList {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+
+.specHeader {
+  align-items: center;
   justify-content: center;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-shadow: 4px 6px 5px rgba(0,0,0,0.3);
+}
+
+.spec {
+  margin: 1em;
+  justify-content: center;
+  align-items:center;
 }
