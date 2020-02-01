@@ -34,8 +34,9 @@ class UserGuitar extends React.Component {
     };
     return (
         <div className="card card-body col-4 flex-fill userGtrCard" >
-            <img className="images userGtrImg" src={guitar.imageUrl} alt=""/>
-            <div className="card-header d-flex flex-column">
+            <img className="images userGtrImg img" src={guitar.imageUrl} alt=""/>
+            <br></br>
+            <div className="d-flex flex-column">
               <div className="userGtrCopy">
                 <p className="card-title">Model Year: {guitar.modelYear}</p>
                 <Link className="card-title" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}`}>
