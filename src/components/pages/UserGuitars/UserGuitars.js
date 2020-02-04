@@ -54,10 +54,10 @@ class UserGuitars extends React.Component {
       <div className="UserGuitars d-flex flex-column">
         <h1 className="text-center">User Guitars</h1>
         <div className="text-center">
-            <button className="btn btn-success text-center" onClick={this.modalOpen}>Tone Tips</button>
+            <button className="btn toneTipsBtn text-center" onClick={this.modalOpen}>Tone Tips</button>
         </div>
         <ToneChasingModal modalClose={this.modalClose} show={show} toneLegends={toneLegends}/>
-        <Link className="btn btn-success addUsrGtr" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
+        <Link className="btn btn-success addUsrGtrBtn" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
         <div className="userGtrsContainer d-flex flex-row">
           {userGuitars.map((uG) => <UserGuitar key={uG.id} guitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
         </div>

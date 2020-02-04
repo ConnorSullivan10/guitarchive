@@ -12,7 +12,6 @@ class ToneChasingModal extends React.Component {
     show: PropTypes.array,
     modalClose: PropTypes.func,
     toneLegends: PropTypes.array,
-    // guitarId: PropTypes.string,
   }
 
   state = {
@@ -20,18 +19,9 @@ class ToneChasingModal extends React.Component {
     amp: {},
   }
 
-  // componentDidMount() {
-  //   const { guitarId } = this.props;
-  //   toneLegendsData.getToneLegendsByGuitarId(guitarId)
-  //     .then((toneLegends) => this.setState({ toneLegends }))
-  //     .catch((err) => console.error('error from get legends by guitar', err));
-  // }
-
   getSingleLegendByGenre = (e) => {
     const { toneLegends } = this.props;
-    const { guitarLegend } = this.state;
     const singleLegend = toneLegends.find((toneLegend) => toneLegend.legendGenre === e.target.value);
-    console.log(singleLegend);
     ampsData.getLoneAmp(singleLegend.legendAmp).then((result) => {
       this.setState({ guitarLegend: singleLegend, amp: result });
     });

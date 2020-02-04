@@ -17,7 +17,7 @@ class Guitar extends React.Component {
             </div>
             <div className="guitarCardHeader text-center">
               <p className="card-title modelName">{guitar.modelName}</p>
-              <Link className="btn btn-success usrGtrBtn" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>User Guitars</Link>
+              <Link className="btn usrGtrBtn" to={`/brands/${guitar.brandId}/guitars/${guitar.id}`}>User Guitars</Link>
             </div>
               <p className="card-title">
                 {guitar.description}

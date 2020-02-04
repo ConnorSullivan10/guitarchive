@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import image from '../../../images/logo.png';
 
 class MyNavbar extends React.Component {
   static propTypes = {
@@ -24,7 +25,7 @@ class MyNavbar extends React.Component {
               <Link className="nav-link" to="/home">Home</Link>
             </li>
             <li className="nav-item logOut">
-              <button className="nav-link btn btn-danger" onClick={this.logMeOut}>Logout</button>
+              <button className="nav-link btn btn-outline-danger logoutBtn" onClick={this.logMeOut}>Logout</button>
             </li>
           </ul>
         );
@@ -35,9 +36,9 @@ class MyNavbar extends React.Component {
     };
     return (
       <div className="MyNavbar">
-        <nav className="navbar shadow-lg p-3 mb-5 fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar shadow-lg p-3 mb-5 fixed-top navbar-expand-lg navbar-light bg-white">
           <a className="navbar-brand" href="/home">
-            <img src="../../../images/logo.png" width="30" height="30" className="d-inline-block align-top" alt="guitArchive"/>
+            <img src={image} height="78" width="160" className=" align-top" alt="guitArchive"/>
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
