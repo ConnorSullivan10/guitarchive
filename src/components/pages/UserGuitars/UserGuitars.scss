@@ -1,13 +1,32 @@
 .UserGuitars {
-  padding-top: 70px;
+  padding-top: 120px;
+}
+
+.usrBtnContainer {
+  align-items: center;
+  justify-content: space-between;
 }
 
 .addUsrGtrBtn {
-  width: 180px;
-  align-self: center;
-  margin-top: 1em;
+  max-width: 180px;
+}
+
+.btn-md {
+  height: 34px;
 }
 
 .toneTipsBtn {
+  float: right;
+  margin-right: 1em;
   background-color: rgb(182, 150, 68);
+}
+
+.backGtrBtn {
+  float: left;
+  margin-left: 1em;
+  background-color: rgb(182, 150, 68);
+}
+
+.toneTipsBtn:hover, .backGtrBtn:hover {
+  background-color: rgb(143, 117, 53);
 }

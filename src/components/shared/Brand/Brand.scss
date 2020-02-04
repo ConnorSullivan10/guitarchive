@@ -4,7 +4,6 @@
 
 .brands {
   display: flex;
-  
 }
 
 .brandCard {
@@ -16,4 +15,8 @@
 
 .guitarsBtn {
   background-color: rgb(182, 150, 68);
+}
+
+.guitarsBtn:hover {
+  background-color: rgb(143, 117, 53);
 }

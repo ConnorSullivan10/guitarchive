@@ -1,5 +1,5 @@
 .loneGtr {
-  padding-top: 70px;
+  padding-top: 120px;
   min-height: 100vh;
   align-content: center;
 }
@@ -24,4 +24,12 @@
   margin: 1em;
   justify-content: center;
   align-items:center;
+}
+
+.backUsrBtn {
+  background-color: rgb(182, 150, 68);
+}
+
+.backUsrBtn:hover {
+  background-color: rgb(143, 117, 53);
 }

@@ -25,8 +25,8 @@ class UserGuitar extends React.Component {
       if (userUid === guitar.uid) {
         return (
             <div className="userBtnContainer">
-              <Link className="btn btn-warning updateBtn" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}/edit`}>Edit</Link>
-              <button className="btn btn-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
+              <Link className="btn btn-outline-warning updateBtn" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}/edit`}>Edit</Link>
+              <button className="btn btn-outline-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
             </div>
         );
       }

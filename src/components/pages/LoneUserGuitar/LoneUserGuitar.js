@@ -1,11 +1,14 @@
 import React from 'react';
 import './LoneUserGuitar.scss';
+import { Link } from 'react-router-dom';
+import guitarsData from '../../../helpers/data/guitarsData';
 import userGuitarsData from '../../../helpers/data/userGuitarsData';
 
 
 class LoneUserGuitar extends React.Component {
      state = {
        userGuitar: {},
+       brandId: '',
      }
 
      componentDidMount() {
@@ -13,13 +16,17 @@ class LoneUserGuitar extends React.Component {
        userGuitarsData.getLoneUserGuitar(userGuitarId)
          .then((userGuitar) => {
            this.setState({ userGuitar: userGuitar.data });
+           guitarsData.getSingleGuitar(userGuitar.data.guitarId)
+             .then((response) => {
+               this.setState({ brandId: response.data.brandId });
+             });
          })
          .catch((errFromLoneGuitar) => console.error({ errFromLoneGuitar }));
      }
 
 
      render() {
-       const { userGuitar } = this.state;
+       const { userGuitar, brandId } = this.state;
        return (
         <div className="loneGtr ">
           <div className=" loneContainer card card-body specList">
@@ -90,6 +97,7 @@ class LoneUserGuitar extends React.Component {
                   </div>
                 </div>
               </div>
+              <Link className="btn text-center col-12 backUsrBtn" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}`}>Back To User Guitars</Link>
             </div>
           </div>
         </div>

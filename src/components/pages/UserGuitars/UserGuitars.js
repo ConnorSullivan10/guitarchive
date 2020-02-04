@@ -50,14 +50,23 @@ class UserGuitars extends React.Component {
       brandId, userGuitars, show, toneLegends,
     } = this.state;
     const { guitarId } = this.props.match.params;
+    const toneTipBuilder = () => {
+      if (brandId !== 'brand3') {
+        return (
+        <button className="btn btn-md toneTipsBtn" onClick={this.modalOpen}>Tone Tips</button>
+        );
+      }
+      return (<div></div>);
+    };
     return (
       <div className="UserGuitars d-flex flex-column">
         <h1 className="text-center">User Guitars</h1>
-        <div className="text-center">
-            <button className="btn toneTipsBtn text-center" onClick={this.modalOpen}>Tone Tips</button>
+        <center><Link className="btn btn-md btn-success text-center addUsrGtrBtn" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link></center>
+        <div className="usrBtnContainer d-flex flex-row">
+          <Link className="btn btn-md backGtrBtn" to={`/brands/${brandId}/guitars`}>Back To Guitar Models</Link>
+          { toneTipBuilder() }
         </div>
         <ToneChasingModal modalClose={this.modalClose} show={show} toneLegends={toneLegends}/>
-        <Link className="btn btn-success addUsrGtrBtn" to={`/brands/${brandId}/guitars/${guitarId}/new`}>Add New User Guitar</Link>
         <div className="userGtrsContainer d-flex flex-row">
           {userGuitars.map((uG) => <UserGuitar key={uG.id} guitar={uG} brandId={brandId} deleteGuitar={this.deleteGuitar}/>)}
         </div>

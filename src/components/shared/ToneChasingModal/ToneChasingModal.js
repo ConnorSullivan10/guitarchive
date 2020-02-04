@@ -1,9 +1,8 @@
 import React from 'react';
 import {
-  Modal, Button, ButtonGroup, ToggleButton, Card,
+  Modal, Row, Col, Button, ButtonGroup, ToggleButton, Card, Container,
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-// import toneLegendsData from '../../../helpers/data/toneLegendsData';
 import ampsData from '../../../helpers/data/ampsData';
 import './ToneChasingModal.scss';
 
@@ -55,20 +54,28 @@ class ToneChasingModal extends React.Component {
             </ToggleButton>
           </ButtonGroup>
           {guitarLegend ? (
-            <div>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={guitarLegend.legendImageUrl} />
-                <Card.Body>
-                  <Card.Title>{guitarLegend.legendName}</Card.Title>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={amp.ampImageUrl} />
-                <Card.Body>
-                  <Card.Title>{amp.ampBrand} {amp.ampName}</Card.Title>
-                  <div>{amp.description}</div>
-                </Card.Body>
-              </Card>
+            <div className="toneChaseResults">
+              <Container>
+                <Row>
+                  <Col className="modalColumn">
+                    <Card>
+                      <Card.Body>
+                        <Card.Img variant="top" src={guitarLegend.legendImageUrl} />
+                        <Card.Title>{guitarLegend.legendName}</Card.Title>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                  <Col classname="modalColumn">
+                    <Card>
+                      <Card.Body>
+                        <Card.Img variant="top" src={amp.ampImageUrl} />
+                        <Card.Title>{amp.ampBrand} {amp.ampName}</Card.Title>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+                <div>{amp.description}</div>
+              </Container>
             </div>
           ) : ''}
         </Modal.Body>
