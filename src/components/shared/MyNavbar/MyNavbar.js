@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import image from '../../../images/logo.png';
+import './MyNavbar.scss';
 
 class MyNavbar extends React.Component {
   static propTypes = {
