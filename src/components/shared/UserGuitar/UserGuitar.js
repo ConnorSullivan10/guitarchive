@@ -34,7 +34,9 @@ class UserGuitar extends React.Component {
     };
     return (
         <div className="card card-body col-4 flex-fill userGtrCard" >
-            <img className="images userGtrImg img" src={guitar.imageUrl} alt=""/>
+            <div className="userGitPicContainer text-center container">
+              <img className="images userGtrImg text-center img" src={guitar.imageUrl} alt=""/>
+            </div>
             <br></br>
             <div className="d-flex flex-column">
               <div className="userGtrCopy">

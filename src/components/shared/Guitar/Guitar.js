@@ -12,7 +12,7 @@ class Guitar extends React.Component {
     const { guitar } = this.props;
     return (
         <div className="card card-body flex-fill Guitar col-3">
-            <div className="gitPicContainer container">
+            <div className="gitPicContainer text-center container">
               <img className="images modelImg img" src={guitar.modelImageUrl} alt=""/>
             </div>
             <div className="guitarCardHeader text-center">

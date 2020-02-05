@@ -1,7 +1,14 @@
 
-
+.gitPicContainer {
+  margin: 1em;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .modelImg {
-  float:  left;
   height: auto;
   width: 100%;
   object-fit: cover;
