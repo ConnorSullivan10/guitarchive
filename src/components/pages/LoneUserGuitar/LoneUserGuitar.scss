@@ -1,6 +1,7 @@
 .loneGtr {
-  padding-top: 70px;
+  padding-top: 120px;
   min-height: 100vh;
+  min-width: 970px;
   align-content: center;
 }
 
@@ -24,4 +25,21 @@
   margin: 1em;
   justify-content: center;
   align-items:center;
+}
+
+.backUsrBtn {
+  background-color: rgb(182, 150, 68);
+}
+
+.backUsrBtn:hover {
+  background-color: rgb(143, 117, 53);
+}
+
+.specImg {
+  max-height: 68.67px;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  margin-left: 1em;
+  display: flex-end;
 }

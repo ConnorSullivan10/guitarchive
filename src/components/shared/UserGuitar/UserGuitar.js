@@ -25,8 +25,8 @@ class UserGuitar extends React.Component {
       if (userUid === guitar.uid) {
         return (
             <div className="userBtnContainer">
-              <Link className="btn btn-warning updateBtn" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}/edit`}>Edit</Link>
-              <button className="btn btn-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
+              <Link className="btn btn-outline-warning updateBtn" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}/edit`}>Edit</Link>
+              <button className="btn btn-outline-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
             </div>
         );
       }
@@ -34,7 +34,9 @@ class UserGuitar extends React.Component {
     };
     return (
         <div className="card card-body col-4 flex-fill userGtrCard" >
-            <img className="images userGtrImg img" src={guitar.imageUrl} alt=""/>
+            <div className="userGitPicContainer text-center container">
+              <img className="images userGtrImg text-center img" src={guitar.imageUrl} alt=""/>
+            </div>
             <br></br>
             <div className="d-flex flex-column">
               <div className="userGtrCopy">

@@ -1,3 +1,31 @@
+# guitArchive (NSS Front-End Capstone)
+
+## Technologies Used
+1. HTML5, SCSS, JavaScript
+2. React Bootstrap, Bootstrap & SASS 0.5.0: All customized styling
+3. React: For bundling components and building the UI
+
+## Description
+guitArchive was born out of the idea that there are many secondhand vintage guitar owners who'd like to find more details about their prized vintage instruments. Guitarists can use this application to find more details about the guitar models of their favorite vintage guitar brands, along with detailed specifications of other users' guitars, so they are hopefully able to narrow down the range of years within which their instrument was made. Upon authenticating, users are able to add, edit, and delete their own vintage guitar as well as view custom Tone Tip suggestions to help them find the right amp to meet their needs whether they are a current vintage guitar owner, or are simply in the market to see what guitars are out there. Over time as the database grows, and users have a larger range of instrument data to look at, this application can help keep the history of these guitars alive long after their gone, as well as keep a record of current instruments that will one day be considered vintage themselves.
+
+## Screenshots
+
+![guitArchive Preview 1]()
+![guitArchive Preview 2]()
+![guitArchive Preview 3]()
+![guitArchive Preview 4]()
+![guitArchive Preview 5]()
+![guitArchive Preview 6]()
+
+## How to run
+1. Clone down this project.
+2. Go to: `https://www.npmjs.com/package/http-server` and install "http-server".  
+2. Navigate to the project folder in command line interface and type: `http-server -p 8888`  
+3. This will show at: `http://localhost:8888` in your internet browser.  
+
+Or you can launch your web browser and navigate to the following deployed link of the project:
+https://guitarchive.firebaseapp.com/auth
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

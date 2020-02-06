@@ -1,15 +1,25 @@
 
-
+.gitPicContainer {
+  margin: 1em;
+  padding: 0;
+  height: 50%;
+  max-height: 300px;
+  width: 95%;
+  max-width: 400px;
+  overflow: hidden;
+  display: flex;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+}
 .modelImg {
-  float:  left;
-  height: auto;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 .Guitar {
   margin: 1em;
-  align-items: center;
   justify-content: flex-start;
 }
 
@@ -24,4 +34,9 @@
 
 .usrGtrBtn {
   margin-bottom: 1em;
+  background-color: rgb(182, 150, 68);
+}
+
+.usrGtrBtn:hover {
+  background-color: rgb(143, 117, 53);
 }

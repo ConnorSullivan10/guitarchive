@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from 'firebase/app';
+import authImage from '../../../images/authImg.png';
 import 'firebase/auth';
 import './Auth.scss';
 
@@ -13,7 +14,12 @@ class Auth extends React.Component {
   render() {
     return (
       <div className="Auth">
-        <button className="btn btn-danger" onClick={this.loginClickEvent}>Login with Google</button>
+        <div className="authContainer">
+          <img className="authImg" src={ authImage } alt="" />
+          <div className="overlay">
+            <button className="btn btn-danger loginBtn" onClick={this.loginClickEvent}>Login with Google</button>
+          </div>
+        </div>
       </div>
     );
   }

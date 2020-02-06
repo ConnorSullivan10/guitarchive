@@ -1,5 +1,13 @@
 .Guitars {
   min-height: 100vh;
-  padding-top: 80px;
+  padding-top: 120px;
   align-items: center;
+}
+
+.backBrandBtn {
+  background-color: rgb(182, 150, 68);
+}
+
+.backBrandBtn:hover {
+  background-color: rgb(143, 117, 53);
 }
