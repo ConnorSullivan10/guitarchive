@@ -1,0 +1,212 @@
+{
+  "toneLegend1": {
+    "legendName": "Larry Carlton",
+    "legendGuitar": "guitar3",
+    "legendAmp": "amp2",
+    "legendImageUrl": "https://mediad.publicbroadcasting.net/p/khpr/files/styles/x_large/public/201902/cover.jpg",
+    "legendGenre": "Jazz/Fusion"
+  },
+  "toneLegend2": {
+    "legendName": "Ritchie Blackmore",
+    "legendGuitar": "guitar3",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://i.pinimg.com/originals/18/c4/49/18c449055e4df92c54ff4da3c55c27b6.jpg",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend3": {
+    "legendName": "Dave Grohl",
+    "legendGuitar": "guitar3",
+    "legendAmp": "amp12",
+    "legendImageUrl": "https://i.imgur.com/S4aYMGLl.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend4": {
+    "legendName": "B.B. King",
+    "legendGuitar": "guitar3",
+    "legendAmp": "amp4",
+    "legendImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/B.B._King_3011710050.jpg",
+    "legendGenre": "Blues"
+  },
+  "toneLegend5": {
+    "legendName": "Guthrie Trapp",
+    "legendGuitar": "guitar3",
+    "legendAmp": "amp6",
+    "legendImageUrl": "https://i.ytimg.com/vi/tXbNamABMr8/maxresdefault.jpg",
+    "legendGenre": "Country"
+  },
+  "toneLegend6": {
+    "legendName": "Slash",
+    "legendGuitar": "guitar1",
+    "legendAmp": "amp10",
+    "legendImageUrl": "https://www.mattsguitar.shop/uploads/artistes/Slash.jpg",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend7": {
+    "legendName": "Noel Gallagher",
+    "legendGuitar": "guitar1",
+    "legendAmp": "amp12",
+    "legendImageUrl": "https://i.pinimg.com/originals/ec/e9/36/ece9361fc19343831fd9817f00555a5d.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend8": {
+    "legendName": "Duane Allman",
+    "legendGuitar": "guitar1",
+    "legendAmp": "amp2",
+    "legendImageUrl": "https://s3.amazonaws.com/allaboutjazz/photos/2010/duaneallmanat70_800.jpeg",
+    "legendGenre": "Blues"
+  },
+  "toneLegend9": {
+    "legendName": "Gary Moore",
+    "legendGuitar": "guitar1",
+    "legendAmp": "amp9",
+    "legendImageUrl": "https://pbs.twimg.com/media/C8lMaUzW0AIIttU.jpg",
+    "legendGenre": "Jazz/Fusion"
+  },
+  "toneLegend10": {
+    "legendName": "Jerry Reed",
+    "legendGuitar": "guitar1",
+    "legendAmp": "amp5",
+    "legendImageUrl": "https://miro.medium.com/max/2260/1*qBPOtIw1BDor4nUpkMYBMw.jpeg",
+    "legendGenre": "Country"
+  },
+  "toneLegend11": {
+    "legendName": "Frank Zappa",
+    "legendGuitar": "guitar2",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://i.pinimg.com/originals/7e/0f/e1/7e0fe1c685008553c33ce2a88ee23cae.jpg",
+    "legendGenre": "Jazz/Fusion"
+  },
+  "toneLegend12": {
+    "legendName": "Derek Trucks",
+    "legendGuitar": "guitar2",
+    "legendAmp": "amp4",
+    "legendImageUrl": "https://www.ultimate-guitar.com/static/article/news/5/93415_0_wide_ver1562917409.jpg@642",
+    "legendGenre": "Blues"
+  },
+  "toneLegend13": {
+    "legendName": "Angus Young",
+    "legendGuitar": "guitar2",
+    "legendAmp": "amp8",
+    "legendImageUrl": "https://guitar.com/wp-content/uploads/2019/09/angus-young-gibson-sg@1400x1050.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend14": {
+    "legendName": "Tony Iommi",
+    "legendGuitar": "guitar2",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://i1.wp.com/musiccorners.com/wp-content/uploads/2016/06/tony-iommi-1.jpg",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend15": {
+    "legendName": "Neko Case",
+    "legendGuitar": "guitar2",
+    "legendAmp": "amp12",
+    "legendImageUrl": "https://ssl.c.photoshelter.com/img-get/I0000svO7ZwWmnCc/s/1200/I0000svO7ZwWmnCc.jpg",
+    "legendGenre": "Country"
+  },
+  "toneLegend16": {
+    "legendName": "Mike Stern",
+    "legendGuitar": "guitar5",
+    "legendAmp": "amp5",
+    "legendImageUrl": "https://cdn2.jazztimes.com/2009/03/199912_059-437x610.jpg",
+    "legendGenre": "Jazz/Fusion"
+  },
+  "toneLegend17": {
+    "legendName": "Brad Paisley",
+    "legendGuitar": "guitar5",
+    "legendAmp": "amp2",
+    "legendImageUrl": "https://www.vintageguitar.com/wp-content/uploads/paisley_Weaver.jpg",
+    "legendGenre": "Country"
+  },
+  "toneLegend18": {
+    "legendName": "Keith Richards",
+    "legendGuitar": "guitar5",
+    "legendAmp": "amp12",
+    "legendImageUrl": "https://www.keithrichardsguitar.com/wp-content/uploads/2014/06/62.jpg",
+    "legendGenre": "Blues"
+  },
+  "toneLegend19": {
+    "legendName": "Joe Strummer",
+    "legendGuitar": "guitar5",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://i.pinimg.com/originals/ff/ac/4b/ffac4b211fc5798efc4668706a21df67.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend20": {
+    "legendName": "John 5",
+    "legendGuitar": "guitar5",
+    "legendAmp": "amp10",
+    "legendImageUrl": "https://www.revolvermag.com/sites/default/files/styles/image_750_x_420/public/media/images/article/john-5-2018-scott-dudelson-getty.jpg?itok=6lVqA3hc&timestamp=1520633833&c=9f4c390d1e05bdf60bb990da360e998c",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend21": {
+    "legendName": "Oz Noy",
+    "legendGuitar": "guitar4",
+    "legendAmp": "amp3",
+    "legendImageUrl": "https://www.seymourduncan.com/blog/wp-content/uploads/MCW8352Hi-Rez.jpg",
+    "legendGenre": "Jazz/Fusion"
+  },
+  "toneLegend22": {
+    "legendName": "Yngwie Malmsteen",
+    "legendGuitar": "guitar4",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://guitar.com/wp-content/uploads/2019/05/GettyImages-1064328658-yngwie-malmsteen@1400x1050.jpg",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend23": {
+    "legendName": "Buddy Guy",
+    "legendGuitar": "guitar4",
+    "legendAmp": "amp7",
+    "legendImageUrl": "https://rocklegendscruise.com/rlc8/wp-content/uploads/sites/4/Buddy-Guy-Josh-Cheuse.png",
+    "legendGenre": "Blues"
+  },
+  "toneLegend24": {
+    "legendName": "The Edge",
+    "legendGuitar": "guitar4",
+    "legendAmp": "amp2",
+    "legendImageUrl": "https://static.flickr.com/26/64011910_037cb5725f.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend25": {
+    "legendName": "Vince Gill",
+    "legendGuitar": "guitar4",
+    "legendAmp": "amp2",
+    "legendImageUrl": "https://i.pinimg.com/originals/6b/10/5d/6b105d2d664936c8e75b259675f1189a.jpg",
+    "legendGenre": "Country"
+  },
+  "toneLegend26": {
+    "legendName": "Roy Clark",
+    "legendGuitar": "guitar6",
+    "legendAmp": "amp5",
+    "legendImageUrl": "https://i.ytimg.com/vi/eLuiQBVgE4A/maxresdefault.jpg",
+    "legendGenre": "Country"
+  },
+  "toneLegend27": {
+    "legendName": "Nels Cline",
+    "legendGuitar": "guitar6",
+    "legendAmp": "amp8",
+    "legendImageUrl": "https://i.pinimg.com/originals/0d/51/8b/0d518b357ec81b474be84fead8331341.jpg",
+    "legendGenre": "Jazz"
+  },
+  "toneLegend28": {
+    "legendName": "Mike Einziger",
+    "legendGuitar": "guitar6",
+    "legendAmp": "amp11",
+    "legendImageUrl": "https://farm9.staticflickr.com/8163/7188230493_3677f17383.jpg",
+    "legendGenre": "Hard Rock/Metal"
+  },
+  "toneLegend29": {
+    "legendName": "Thom Yorke",
+    "legendGuitar": "guitar6",
+    "legendAmp": "amp12",
+    "legendImageUrl": "https://i.pinimg.com/originals/bb/3f/5c/bb3f5c2798465cf4e3ad9ad0d61b8795.jpg",
+    "legendGenre": "Rock"
+  },
+  "toneLegend30": {
+    "legendName": "Magic Slim",
+    "legendGuitar": "guitar6",
+    "legendAmp": "amp1",
+    "legendImageUrl": "https://www.heritageownersclub.com/forums/uploads/monthly_08_2011/post-1274-0-24067300-1314493566.jpg",
+    "legendGenre": "Blues"
+  }
+}

@@ -7,25 +7,25 @@ import './UserGuitar.scss';
 
 class UserGuitar extends React.Component {
   static propTypes = {
-    userGuitar: userGuitarShape.userGuitarShape,
+    guitar: userGuitarShape.userGuitarShape,
     brandId: PropTypes.string,
     deleteGuitar: PropTypes.func,
   }
 
   deleteUserGuitarEvent = (e) => {
     e.preventDefault();
-    const { userGuitar, deleteGuitar } = this.props;
-    deleteGuitar(userGuitar.id);
+    const { guitar, deleteGuitar } = this.props;
+    deleteGuitar(guitar.id);
   }
 
   render() {
-    const { brandId, userGuitar } = this.props;
+    const { brandId, guitar } = this.props;
     const userUid = authData.getUid();
     const buildButtons = () => {
-      if (userUid === userGuitar.uid) {
+      if (userUid === guitar.uid) {
         return (
             <div className="userBtnContainer">
-              <Link className="btn btn-warning updateBtn" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}/edit`}>Edit</Link>
+              <Link className="btn btn-warning updateBtn" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}/edit`}>Edit</Link>
               <button className="btn btn-danger closeBtn" onClick={this.deleteUserGuitarEvent}>Delete</button>
             </div>
         );
@@ -33,22 +33,19 @@ class UserGuitar extends React.Component {
       return <div className="nothing"></div>;
     };
     return (
-      <div className="userGuitars col-4">
-        <div className="card userGtrCard" >
-          <div className="card-body userGtrBody">
-            <div className="card-header d-flex flex-column">
-              <img className="images userGtrImg card-img-top" src={userGuitar.imageUrl} alt=""/>
+        <div className="card card-body col-4 flex-fill userGtrCard" >
+            <img className="images userGtrImg img" src={guitar.imageUrl} alt=""/>
+            <br></br>
+            <div className="d-flex flex-column">
               <div className="userGtrCopy">
-                <p className="card-title">Model Year: {userGuitar.modelYear}</p>
-                <Link className="card-title" to={`/brands/${brandId}/guitars/${userGuitar.guitarId}/${userGuitar.id}`}>
+                <p className="card-title">Model Year: {guitar.modelYear}</p>
+                <Link className="card-title" to={`/brands/${brandId}/guitars/${guitar.guitarId}/${guitar.id}`}>
                     More Details
                 </Link>
               </div>
               { buildButtons() }
             </div>
-          </div>
         </div>
-      </div>
     );
   }
 }

@@ -1,0 +1,74 @@
+{
+  "amp1": {
+    "ampBrand": "Fender",
+    "ampName": "Bassman",
+    "description": "The mighty 4x10 Bassman began life as a bass amp before guitar players discovered its sonic wonders and adopted it as their own. Prized by guitarists everywhere for more than half a century now, it lives on as a must-have guitar amp treasured for its pure sound, workhorse reliability, classic style and uncluttered ease of use.",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--G5mHXEMS--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1486760830/jli8argpdq9rbskvnn9v.jpg"
+  },
+  "amp2": {
+    "ampBrand": "Fender",
+    "ampName": "Deluxe Reverb",
+    "description": "Played on countless hit recordings for decades now, the mid-'60s Deluxe Reverb is a timeless Fender classic and one of the most indispensable workhorse guitar amps ever made. Moderately powered and producing a full, snappy and crystalline tone revered in studios from Muscle Shoals to Abbey Road and on stages worldwide, it's a must-have tone machine.",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--fPKFC4ko--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_1600,q_80,w_1600/v1481753981/ne5smeufpjzienlfgfll.png"
+  },
+  "amp3": {
+    "ampBrand": "Fender",
+    "ampName": "Princeton Reverb",
+    "description": "A historically significant amp used on countless hit songs for decades. One of the coolest amps around, period, it's ideal for anyone who demands top-notch tube tone, naturally dynamic clean and overdriven sound, and unmistakable long-spring Fender reverb and tube vibrato.",
+    "ampImageUrl": "https://www.guitarplayer.com/.image/t_share/MTYxNDc3OTE1NDkyNTU4NDkx/028_gpr0319_gear-3.jpg"
+  },
+  "amp4": {
+    "ampBrand": "Fender",
+    "ampName": "Super Reverb",
+    "description": "Well-known for its scooped mids, the Super Reverb features the same design as the Fender Super, but with the addition of built-in reverb and tremolo effects as well as four 10 inch speakers. Famous Super Reverb players include Johnny Marr, Stevie Ray Vaughan, Robben Ford, and Derek Trucks.",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--o9dbWAq6--/f_auto,t_large/v1557945807/m4wglg2se9ofrxsdugod.jpg"
+  },
+  "amp5": {
+    "ampBrand": "Fender",
+    "ampName": "Twin Reverb",
+    "description": "A true Fender classic prized by guitarists worldwide for decades and one of the greatest backline amps ever made. The mid-'60s Twin Reverb has seen action in every imaginable venue and remains indispensable to this day. Be it rock, blues, country, jazz or anything else, this is what clean electric guitar sounds like. ",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--7XLFQcMw--/f_auto,t_supersize/v1567195260/ijqcgjcg3gugmbw2wnu6.jpg"
+  },
+  "amp6": {
+    "ampBrand": "Fender",
+    "ampName": "Vibrolux Reverb",
+    "description": "The Blackface Fender Vibrolux Reverb is one of the more desirable amps of the era. These amps broke up fairly early compared to the bigger 6L6 Fenders of the era thanks to their smaller speakers, output transformers, and power transformers. The result is a dreamy-sounding drive that would require blistering volumes or modification to get the same tone out of the bigger Super Reverb or Twin Reverb. ",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--XR_soV5z--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1480533424/eriohh2elhmhyvtkhavs.png"
+  },
+  "amp7": {
+    "ampBrand": "Fender",
+    "ampName": "Vibroverb",
+    "description": "The Vibroverb was only produced for two years, and remains an extremely sought-after Fender amp.  This model was the first to feature both vibrato and reverb, and was notably used by Stevie Ray Vaughan. ",
+    "ampImageUrl": "https://vendeze-production.s3.amazonaws.com/uploads/photo/3297/original/tkayhionqs4htmvdwwnf.jpg"
+  },
+  "amp8": {
+    "ampBrand": "Marshall",
+    "ampName": "JTM45",
+    "description": "In 1962, in a small shop in Hanwell, Jim Marshall created and began selling the first Marshall amp, a JTM45TM. From this the Marshall sound was born. This reissue meticulously replicates this original Marshall sound. Using the GZ34 valve rectifier, it works with the ECC83 and 5881 valves to generate the harmonic and unmistakable Marshall tone.",
+    "ampImageUrl": "https://vintageandrareguitars.com/wp-content/uploads/2018/11/VnR-110-64.jpg"
+  },
+  "amp9": {
+    "ampBrand": "Marshall",
+    "ampName": "Bluesbreaker",
+    "description": "The Bluesbreaker, which derives its nickname from being used by Eric Clapton with John Mayall & The Bluesbreakers, is credited with delivering the sound that launched British blues-rock in the mid-1960s. It was Marshall's first combo amplifier, and was described as arguably the most important amplifier in the company's history and 'the definitive rock amplifier.' ",
+    "ampImageUrl": "https://www.acclaim-music.com/product-images/h420/live/images/D/Marshall-1962-Acclaim-Image2.jpg"
+  },
+  "amp10": {
+    "ampBrand": "Marshall",
+    "ampName": "JCM800",
+    "description": "The JCM800 series (Models 2203, 2204, 2205 and 2210) is a line of guitar amplifiers made by Marshall Amplification. The series was introduced in 1981. Although models 1959 and 1987 had been in production since 1965 and the 2203 and 2204 had been in production since 1975, they were redesigned and introduced as JCM800 amplifiers in '81. The JCM800 amplifiers became a staple of 1980s hard rock and heavy metal bands.",
+    "ampImageUrl": "https://cdn.shopify.com/s/files/1/1898/9465/products/image_b9bd8b63-9237-4b6e-8192-264a015596a3_3024x.jpg?v=1571712533"
+  },
+  "amp11": {
+    "ampBrand": "Marshall",
+    "ampName": "Super Lead",
+    "description": "The 100 Watt Marshall Super Lead was THE amp that started it all for the greatest rock and roll tones achieved – or I should say, the greatest LOUD rock and roll tones of the 60’s. Yes, the Vox AC 30, Fender Bassman, and even the Marshall JTM 45 came well before Marshall’s famous 100-watter, but it was the Super Lead that upped the ante for high-powered rock performances and really is the standard by which all rock guitar tone is judged. With generations of guitar greats such as Jimi Hendrix, Jimmy Page, Edward Van Halen, and countless others all using the Super Lead with stacks of 4 x 12 cabinets, there is no wonder why this amplifier is legendary; especially the very earliest models, known as the 'plexi' heads.",
+    "ampImageUrl": "https://cdn.shopify.com/s/files/1/0782/2249/products/2faf4545357458ff690bc2495a21dba8_600x600.png?v=1547712364"
+  },
+  "amp12": {
+    "ampBrand": "Vox",
+    "ampName": "AC30",
+    "description": "The Vox AC30 was originally introduced in 1959 at Hank Marvin's request as the 'big brother' of the fifteen watt (15 W) AC15 model, Vox's original flagship amplifier, because the AC15 was not loud enough with the screaming fans at Cliff Richard's concerts. Characterised by its 'jangly' high-end sound it has become widely recognized by British musicians and others.",
+    "ampImageUrl": "https://images.reverb.com/image/upload/s--JuVlsn_S--/f_auto,t_supersize/v1544658309/qzxiiq3nzscxodjgnw2y.jpg"
+  }
+}

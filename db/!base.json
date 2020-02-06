@@ -1,5 +1,7 @@
 {
+  "amps": "amps",
   "brands": "brands",
   "guitars": "guitars",
+  "toneLegends": "toneLegends",
   "userGuitars": "userGuitars"
 }

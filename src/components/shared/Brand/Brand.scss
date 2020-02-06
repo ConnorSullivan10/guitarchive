@@ -2,8 +2,12 @@
   width: 100%;
 }
 
+.brands {
+  display: flex;
+  
+}
+
 .brandCard {
-  min-height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,22 +1,27 @@
+
+
 .modelImg {
-  max-width: 100%;
+  float:  left;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 .Guitar {
   margin: 1em;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .modelName {
   font-size: 1.5em;
 }
 
-.usrBtn {
-  margin-right: 0;
-  margin-left: auto;
-}
-
-.gtrCardTop {
+.guitarCardHeader {
   align-items: center;
   justify-content: center;
+}
+
+.usrGtrBtn {
   margin-bottom: 1em;
 }
