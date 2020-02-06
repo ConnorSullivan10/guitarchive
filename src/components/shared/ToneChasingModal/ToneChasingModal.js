@@ -32,7 +32,7 @@ class ToneChasingModal extends React.Component {
     return (
       <Modal show={show} onHide={modalClose}>
         <Modal.Header closeButton>
-          <Modal.Title>ToneChasing</Modal.Title>
+          <Modal.Title>Tone Chasing</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div>Pick a genre for suggested guitar/amp pairings based on the rigs of famous guitarists.</div>

@@ -1,22 +1,24 @@
 
 .gitPicContainer {
   margin: 1em;
-  height: 300px;
-  width: 400px;
+  padding: 0;
+  height: 50%;
+  max-height: 200px;
+  width: 95%;
+  max-width: 300px;
   overflow: hidden;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 .modelImg {
-  height: auto;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
 .Guitar {
   margin: 1em;
-  align-items: center;
   justify-content: flex-start;
 }
 

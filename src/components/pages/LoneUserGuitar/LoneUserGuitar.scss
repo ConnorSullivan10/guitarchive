@@ -1,6 +1,7 @@
 .loneGtr {
   padding-top: 120px;
   min-height: 100vh;
+  min-width: 970px;
   align-content: center;
 }
 
@@ -36,7 +37,9 @@
 
 .specImg {
   max-height: 68.67px;
+  height: 100%;
   width: auto;
+  max-width: 100%;
   margin-left: 1em;
   display: flex-end;
 }

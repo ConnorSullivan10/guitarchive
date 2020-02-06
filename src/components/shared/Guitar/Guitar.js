@@ -11,7 +11,7 @@ class Guitar extends React.Component {
   render() {
     const { guitar } = this.props;
     return (
-        <div className="card card-body flex-fill Guitar col-3">
+        <div className="card card-body col-3 flex-fill Guitar">
             <div className="gitPicContainer text-center container">
               <img className="images modelImg img" src={guitar.modelImageUrl} alt=""/>
             </div>
