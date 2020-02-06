@@ -6,16 +6,19 @@
 3. React: For bundling components and building the UI
 
 ## Description
-guitArchive was born out of the idea that there are many secondhand vintage guitar owners who'd like to find more details about their prized vintage instruments. Guitarists can use this application to find more details about the guitar models of their favorite vintage guitar brands, along with detailed specifications of other users' guitars, so they are hopefully able to narrow down the range of years within which their instrument was made. Upon authenticating, users are able to add, edit, and delete their own vintage guitar as well as view custom Tone Tip suggestions to help them find the right amp to meet their needs whether they are a current vintage guitar owner, or are simply in the market to see what guitars are out there. Over time as the database grows, and users have a larger range of instrument data to look at, this application can help keep the history of these guitars alive long after their gone, as well as keep a record of current instruments that will one day be considered vintage themselves.
+guitArchive was born out of the idea that there are many secondhand vintage guitar owners who'd like to find more details about their prized vintage instruments. Guitarists can use this application to find more details about the guitar models of their favorite vintage guitar brands, along with detailed specifications of other users' guitars, so they are hopefully able to narrow down the range of years within which their instrument was made. Upon authenticating, users are able to add, edit, and delete their own vintage guitar as well as view custom Tone Tip suggestions to help them find the right amp to meet their needs whether they are a current vintage guitar owner, or are simply in the market to see what guitars are out there. Over time as the database grows, and users have a larger range of instrument data to look at, this application can help keep the history of these guitars alive long after they're gone, as well as keep a record of current instruments that will one day be considered vintage in their own right.
 
 ## Screenshots
 
-![guitArchive Preview 1]()
-![guitArchive Preview 2]()
-![guitArchive Preview 3]()
-![guitArchive Preview 4]()
-![guitArchive Preview 5]()
-![guitArchive Preview 6]()
+![guitArchive Preview 1](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive1.PNG)
+![guitArchive Preview 2](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive2.PNG)
+![guitArchive Preview 3](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive3.PNG)
+![guitArchive Preview 4](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive4.PNG)
+![guitArchive Preview 5](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive7.PNG)
+![guitArchive Preview 6](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive5.PNG)
+![guitArchive Preview 7](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive6.PNG)
+![guitArchive Preview 8](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive8.PNG)
+![guitArchive Preview 9](https://raw.githubusercontent.com/ConnorSullivan10/guitarchive/master/screenshots/guitArchive9.PNG)
 
 ## How to run
 1. Clone down this project.
