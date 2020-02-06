@@ -53,7 +53,7 @@ class ToneChasingModal extends React.Component {
               Country
             </ToggleButton>
           </ButtonGroup>
-          {guitarLegend ? (
+          {guitarLegend.legendGenre ? (
             <div className="toneChaseResults">
               <Container>
                 <Row>
